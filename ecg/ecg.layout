@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="multi_chn_ecg/smooth_5_points.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="916" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsdetstruct.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="691" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/run.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3873" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsonset.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1456" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/detect.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="704" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsfilt.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7276" topLine="252" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/run.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="387" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/accurloc.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3233" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/subpowerline250.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2061" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/shiyan.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1005" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsdet.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1335" topLine="458" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/hpfilterorder_250.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="439" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/assessHeart.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="273" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/beatype.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="794" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/subpowerline.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1271" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/arrhyalgone.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="846" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/assessHeart.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1323" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsandonoffset.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2160" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/qrsdet.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3020" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="multi_chn_ecg/predefinefilter.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="497" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,352 @@
+# depslib dependency file v1.0
+1435244759 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\accurloc.c
+	<string.h>
+	<math.h>
+	"qrsdet.h"
+	"mult_run.h"
+	<stdlib.h>
+
+1377671392 
+
+1435244627 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsdet.h
+
+1377670520 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\mult_run.h
+	"qrsdet.h"
+	"predefinefilter.h"
+	"qrsdetstruct.h"
+
+1377670520 uct.h"
+
+1369293674 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\predefinefilter.h
+	"qrsdet.h"
+	"hpFilterOrder_250.h"
+	"lpFilterOrder_250.h"
+	"smoothorder_250.h"
+	"subpowerlineorder_250.h"
+
+1369293674 ineorder_250.h"
+
+1369206002 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\hpfilterorder_250.h
+
+1369205972 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\lpfilterorder_250.h
+
+1368690338 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\smoothorder_250.h
+
+1368690140 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\subpowerlineorder_250.h
+
+1377569274 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsdetstruct.h
+	"qrsdet.h"
+
+1435244673 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\arrhyalgone.c
+	<string.h>
+	"qrsdet.h"
+
+1435240110 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\assessheart.c
+	<math.h>
+	"assessHeart.h"
+	"run.h"
+	"qrsdet.h"
+
+1373094472 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\assessheart.h
+	"run.h"
+
+1377673464 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\run.h
+	"qrsdet.h"
+
+1369291222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\beatype.c
+	<math.h>
+	"qrsdet.h"
+
+1369293630 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\hpfilter.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"hpFilterCof_250.h"
+
+1369293630 of_250.h"
+
+1368868020 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\filter.h
+	"predefinefilter.h"
+
+1368868020 filter.h"
+
+1369293648 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\hpfiltercof_250.h
+	"qrsdet.h"
+	"hpfilterorder_250.h"
+
+1369293648 rder_250.h"
+
+1377673480 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\initvar.c
+	<string.h>
+	"assessHeart.h"
+	"run.h"
+	"detect.h"
+
+1373092644 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\detect.h
+
+1369293630 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\lpfilter.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"lpFilterCof_250.h"
+
+1369293648 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\lpfiltercof_250.h
+	"qrsdet.h"
+	"lpfilterorder_250.h"
+
+1369291222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\pwavedet.c
+	"qrsdet.h"
+	<math.h>
+
+1435244168 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsandonoffset.c
+	"qrsdet.h"
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
+1435244312 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsdet.c
+	<string.h>
+	<math.h>
+	"qrsdet.h"
+	<stdlib.h>
+
+1435244339 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsfilt.c
+	<math.h>
+	"qrsdet.h"
+	<stdio.h>
+	<stdlib.h>
+
+1369291222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsmooth.c
+	"qrsdet.h"
+
+1369291222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsoffset.c
+	<math.h>
+	"qrsdet.h"
+
+1369291222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\qrsonset.c
+	<math.h>
+	"qrsdet.h"
+
+1434726689 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\run.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"run.h"
+	"detect.h"
+	"qrsdet.h"
+
+1435243222 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\shiyan.c
+	<stdlib.h>
+	<string.h>
+	"run.h"
+	"mult_run.h"
+
+1377759937 h"
+
+1369293630 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\smooth.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"qrsdet.h"
+	"smoothCof_250.h"
+
+1369293630 _250.h"
+
+1369293630 d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\smoothcof_250.h
+	"qrsdet.h"
+	"smoothorder_250.h"
+
+1369293630 er_250.h"
+
+1358495064 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\smooth_5_points.c
+	<string.h>
+
+1377759937 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\statfun.c
+	<string.h>
+	"qrsdet.h"
+	"mult_run.h"
+
+1353480376 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\sub_dc_offset_250.c
+
+1354673132 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\sub_hf_250_fir_1.c
+
+1354673158 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\sub_hf_250_fir_2.c
+
+1376535450 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\subpowerline.c
+	<math.h>
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"subpowerlineOrder_250.h"
+
+1376535450 ineOrder_250.h"
+
+1377671392 source:d:\ecg_algorithm\trunk\ecg_algorithm_gcc\ecg\multi_chn_ecg\subpowerline250.c
+	<math.h>
+
+1435244759 source:/home/xgx/Downloads/ecg/multi_chn_ecg/accurloc.c
+	<string.h>
+	<math.h>
+	"qrsdet.h"
+	"mult_run.h"
+	<stdlib.h>
+
+1435244627 /home/xgx/Downloads/ecg/multi_chn_ecg/qrsdet.h
+
+1377670520 /home/xgx/Downloads/ecg/multi_chn_ecg/mult_run.h
+	"qrsdet.h"
+	"predefinefilter.h"
+	"qrsdetstruct.h"
+
+1437452109 /home/xgx/Downloads/ecg/multi_chn_ecg/predefinefilter.h
+	"qrsdet.h"
+	"hpfilterorder_250.h"
+	"lpfilterorder_250.h"
+	"smoothorder_250.h"
+	"subpowerlineorder_250.h"
+
+1368690338 /home/xgx/Downloads/ecg/multi_chn_ecg/smoothorder_250.h
+
+1368690140 /home/xgx/Downloads/ecg/multi_chn_ecg/subpowerlineorder_250.h
+
+1377569274 /home/xgx/Downloads/ecg/multi_chn_ecg/qrsdetstruct.h
+	"qrsdet.h"
+
+1435244976 source:/home/xgx/Downloads/ecg/multi_chn_ecg/arrhyalgone.c
+	<string.h>
+	"qrsdet.h"
+
+1435244877 source:/home/xgx/Downloads/ecg/multi_chn_ecg/assessHeart.c
+	<math.h>
+	"assessHeart.h"
+	"run.h"
+	"qrsdet.h"
+	<stdlib.h>
+
+1373094472 /home/xgx/Downloads/ecg/multi_chn_ecg/assessHeart.h
+	"run.h"
+
+1377673464 /home/xgx/Downloads/ecg/multi_chn_ecg/run.h
+	"qrsdet.h"
+
+1369291222 source:/home/xgx/Downloads/ecg/multi_chn_ecg/beatype.c
+	<math.h>
+	"qrsdet.h"
+
+1369293630 source:/home/xgx/Downloads/ecg/multi_chn_ecg/hpFilter.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"hpFilterCof_250.h"
+
+1368868020 /home/xgx/Downloads/ecg/multi_chn_ecg/filter.h
+	"predefinefilter.h"
+
+1369293648 /home/xgx/Downloads/ecg/multi_chn_ecg/hpFilterCof_250.h
+	"qrsdet.h"
+	"hpfilterorder_250.h"
+
+1369206002 /home/xgx/Downloads/ecg/multi_chn_ecg/hpfilterorder_250.h
+
+1377673480 source:/home/xgx/Downloads/ecg/multi_chn_ecg/initvar.c
+	<string.h>
+	"assessHeart.h"
+	"run.h"
+	"detect.h"
+
+1373092644 /home/xgx/Downloads/ecg/multi_chn_ecg/detect.h
+
+1369293630 source:/home/xgx/Downloads/ecg/multi_chn_ecg/lpFilter.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"lpFilterCof_250.h"
+
+1369293648 /home/xgx/Downloads/ecg/multi_chn_ecg/lpFilterCof_250.h
+	"qrsdet.h"
+	"lpfilterorder_250.h"
+
+1369205972 /home/xgx/Downloads/ecg/multi_chn_ecg/lpfilterorder_250.h
+
+1369291222 source:/home/xgx/Downloads/ecg/multi_chn_ecg/pwavedet.c
+	"qrsdet.h"
+	<math.h>
+
+1435244168 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsandonoffset.c
+	"qrsdet.h"
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
+1435244312 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsdet.c
+	<string.h>
+	<math.h>
+	"qrsdet.h"
+	<stdlib.h>
+
+1435244339 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsfilt.c
+	<math.h>
+	"qrsdet.h"
+	<stdio.h>
+	<stdlib.h>
+
+1369291222 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsmooth.c
+	"qrsdet.h"
+
+1369291222 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsoffset.c
+	<math.h>
+	"qrsdet.h"
+
+1369291222 source:/home/xgx/Downloads/ecg/multi_chn_ecg/qrsonset.c
+	<math.h>
+	"qrsdet.h"
+
+1434726689 source:/home/xgx/Downloads/ecg/multi_chn_ecg/run.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"run.h"
+	"detect.h"
+	"qrsdet.h"
+
+1437556052 source:/home/xgx/Downloads/ecg/multi_chn_ecg/shiyan.c
+	<stdlib.h>
+	<string.h>
+	"run.h"
+	"mult_run.h"
+
+1369293630 source:/home/xgx/Downloads/ecg/multi_chn_ecg/smooth.c
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"qrsdet.h"
+	"smoothCof_250.h"
+
+1369293630 /home/xgx/Downloads/ecg/multi_chn_ecg/smoothCof_250.h
+	"qrsdet.h"
+	"smoothorder_250.h"
+
+1358495064 source:/home/xgx/Downloads/ecg/multi_chn_ecg/smooth_5_points.c
+	<string.h>
+
+1377759937 source:/home/xgx/Downloads/ecg/multi_chn_ecg/statfun.c
+	<string.h>
+	"qrsdet.h"
+	"mult_run.h"
+
+1353480376 source:/home/xgx/Downloads/ecg/multi_chn_ecg/sub_dc_offset_250.c
+
+1354673132 source:/home/xgx/Downloads/ecg/multi_chn_ecg/sub_hf_250_fir_1.c
+
+1354673158 source:/home/xgx/Downloads/ecg/multi_chn_ecg/sub_hf_250_fir_2.c
+
+1437452131 source:/home/xgx/Downloads/ecg/multi_chn_ecg/subpowerline.c
+	<math.h>
+	<string.h>
+	"qrsdet.h"
+	"filter.h"
+	"subpowerlineorder_250.h"
+
+1377671392 source:/home/xgx/Downloads/ecg/multi_chn_ecg/subpowerline250.c
+	<math.h>
+

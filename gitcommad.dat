@@ -1,0 +1,22 @@
+#config github in  ubuntu 
+sudo apt-get instal git-core
+ssh-keygen -C "leirifa@163.com" -f ~/.ssh/github
+gedit ~/.ssh/github.pub    #copy string to github.com ssh
+ssh -T git@github.com   #verify connect to github.com
+
+#clone repo
+git clone git@github.com:leirifa/ecg.git
+
+
+#pull repo from github.com to local
+git pull git@github.com:leirifa/ecg.dit
+git status
+git add .   #git add ./hello.c
+git commit -m "add new files"
+
+#push local files to github.com
+
+git remote rm origin
+git remot add origin git@github.com:leirifa/ecg.git
+git push -u origin master
+

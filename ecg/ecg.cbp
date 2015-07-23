@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ecg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ecg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ecg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ecg.cbp" />
+		<Unit filename="multi_chn_ecg/accurloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/arrhyalgone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/assessHeart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/assessHeart.h" />
+		<Unit filename="multi_chn_ecg/beatype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/detect.h" />
+		<Unit filename="multi_chn_ecg/filter.h" />
+		<Unit filename="multi_chn_ecg/fundecla.h" />
+		<Unit filename="multi_chn_ecg/hpFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/hpFilterCof_250.h" />
+		<Unit filename="multi_chn_ecg/hpfilterorder_250.h" />
+		<Unit filename="multi_chn_ecg/initvar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/input.h" />
+		<Unit filename="multi_chn_ecg/lpFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/lpFilterCof_250.h" />
+		<Unit filename="multi_chn_ecg/lpfilterorder_250.h" />
+		<Unit filename="multi_chn_ecg/mult_run.h" />
+		<Unit filename="multi_chn_ecg/predefinefilter.h" />
+		<Unit filename="multi_chn_ecg/pwavedet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsandonoffset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsdet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsdet.h" />
+		<Unit filename="multi_chn_ecg/qrsdetstruct.h" />
+		<Unit filename="multi_chn_ecg/qrsfilt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsmooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsoffset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/qrsonset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/run.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/run.h" />
+		<Unit filename="multi_chn_ecg/shiyan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/smooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/smoothCof_250.h" />
+		<Unit filename="multi_chn_ecg/smooth_5_points.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/smoothorder_250.h" />
+		<Unit filename="multi_chn_ecg/statfun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/sub_dc_offset_250.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/sub_hf_250_fir_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/sub_hf_250_fir_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/subpowerline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/subpowerline250.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_chn_ecg/subpowerlineorder_250.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
