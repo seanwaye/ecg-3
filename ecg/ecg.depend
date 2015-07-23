@@ -475,7 +475,7 @@
 	"detect.h"
 	"qrsdet.h"
 
-1437621335 source:/home/xgx/github/ecg/multi_chn_ecg/shiyan.c
+1437644216 source:/home/xgx/github/ecg/multi_chn_ecg/shiyan.c
 	<stdlib.h>
 	<string.h>
 	"run.h"

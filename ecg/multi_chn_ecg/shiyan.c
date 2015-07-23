@@ -16,7 +16,7 @@ void main ()
 	int sampleNum, ecgOrgVal, ecgFltVal,beaType,heartRate,qrsPosition,qrsPositionOld,qrsPositionOldOld,qrsSetOn,qrsSetOff;
 	char line[10];
 
-	char filename[50] = {"/home/xgx/mitdb/vvannot.txt"};// 输出滤波文件名
+	char filename[50] = {"/home/xgx/mitdb/vvannot201txt"};// 输出滤波文件名
 	char adsname[100] = {'\0'};
 	int m;
 	m = 0;
@@ -42,7 +42,7 @@ void main ()
 
 	memset(adsname, '\0', sizeof(adsname));
 	strcat(adsname, ECG_PATH);
-	strcat(adsname, "mit100.dat"); // 心电原始数据文件
+	strcat(adsname, "mit201.dat"); // 心电原始数据文件
 	printf("%s\n",adsname);
 
 	initvar(&ecgque, &dataOut, &indexOut);
@@ -52,7 +52,7 @@ void main ()
 	// 整个if模块为读取心电信号文件，并在其中进行滤波
 	if( (stream = fopen( adsname, "r" )) != NULL )
 	{
-        printf("open mit100.txt succesful\n");
+        printf("open mit123.dat succesful\n");
 		for(sampleNum = 0; !feof( stream ); )
 		{
 			if( fgets( line, 10, stream ) == NULL)
@@ -109,7 +109,7 @@ void main ()
 		fclose( stream );
 
 	}else{
-        printf("can not open mit100.dat\n");
+        printf("can not open mit107.dat\n");
         return 0;
 	}
 //	printf("%d\n",sampleNum);
