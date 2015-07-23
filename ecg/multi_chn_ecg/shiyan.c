@@ -6,17 +6,17 @@
 
 // 原始信号存放绝对路径，不同机器上运行时请修改
 // ubuntu 14
-#define ECG_PATH  "/home/xgx/"
+#define ECG_PATH  "/home/xgx/mitdb/"
 #define  lenArr 1
 #define  channel 3
 void main ()
 {
 	FILE *stream;
 	FILE *values;
-	int sampleNum, ecgOrgVal, ecgFltVal,beaType,heartRate,qrsPosition,qrsPositionOld,qrsSetOn,qrsSetOff;
+	int sampleNum, ecgOrgVal, ecgFltVal,beaType,heartRate,qrsPosition,qrsPositionOld,qrsPositionOldOld,qrsSetOn,qrsSetOff;
 	char line[10];
 
-	char filename[50] = {"ecg250flt.txt"};// 输出滤波文件名
+	char filename[50] = {"/home/xgx/mitdb/vvannot.txt"};// 输出滤波文件名
 	char adsname[100] = {'\0'};
 	int m;
 	m = 0;
@@ -25,7 +25,7 @@ void main ()
 	struct Ecgqueue ecgque;
 	struct IndexHeart indexOut;
 	int proArray[lenArr] = { 0 };
-
+    int beatCnt=0;
 //	TotalAnalysisStruct TotalStruct;
 //	ChannelAnalysisStruct ChannelStruct[channel];
 	InitVarStruct InitVarStr;
@@ -42,7 +42,7 @@ void main ()
 
 	memset(adsname, '\0', sizeof(adsname));
 	strcat(adsname, ECG_PATH);
-	strcat(adsname, "mit105.dat"); // 心电原始数据文件
+	strcat(adsname, "mit100.dat"); // 心电原始数据文件
 	printf("%s\n",adsname);
 
 	initvar(&ecgque, &dataOut, &indexOut);
@@ -52,7 +52,7 @@ void main ()
 	// 整个if模块为读取心电信号文件，并在其中进行滤波
 	if( (stream = fopen( adsname, "r" )) != NULL )
 	{
-        printf("can open ecgorg250.txt\n");
+        printf("open mit100.txt succesful\n");
 		for(sampleNum = 0; !feof( stream ); )
 		{
 			if( fgets( line, 10, stream ) == NULL)
@@ -69,14 +69,31 @@ void main ()
 				qrsSetOn = dataOut.qrsOnLoc;
 				qrsSetOff = dataOut.qrsOffLoc;
 				heartRate = dataOut.heartRate;
-				if(qrsPosition!=qrsPositionOld){
+                beaType=0;
+
+				if((qrsPosition!=qrsPositionOld)&&(sampleNum>108000)){
                     qrsPositionOld=qrsPosition;
+                    if(dataOut.beaType=='N')
+                        beaType=1;
+                    if(dataOut.beaType=='V')
+                        beaType=10;
+                    if(dataOut.beaType=='O')
+                        beaType=13;
+                         // do not counter first point
+                    if(beatCnt>0){
                     values = fopen(filename, "a+");
-                    fprintf(values, "%d,%d\n", qrsPosition,beaType);
+                    fprintf(values, "%d\t%d\n", qrsPosition,beaType);
                     fclose(values);
+                    }
+
+                    beatCnt++;
+				}else{
+
+
 				}
+
 //			 	if(dataOut.beaType=='N')
- //                   beaType=1;
+//                   beaType=1;
 //		 	if(dataOut.beaType=='V')
  //                   beaType=10;
 //			 	if(dataOut.beaType=='O')
@@ -90,12 +107,13 @@ void main ()
 			}
 		}
 		fclose( stream );
+
 	}else{
-        printf("can not open ecgorg250.txt\n");
+        printf("can not open mit100.dat\n");
         return 0;
 	}
 //	printf("%d\n",sampleNum);
-
+    printf("Beat counter is: %d\n",beatCnt-1);
 	system("pause");
 	return(0);
 }
